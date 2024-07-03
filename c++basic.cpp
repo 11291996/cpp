@@ -97,6 +97,13 @@ int main() {
     return 0;
 }
 
+//in c++, const is declared in runtime, but constexpr is declared in compile time
+constexpr double circleArea(double radius) {
+    return 3.14159 * radius * radius;
+}
+
+constexpr double PI = 3.14159;
+
 //type conversion
 //implicit conversion
 int main() 
